@@ -7,23 +7,6 @@ Documents must be written in English (see [here](Naming.Guidelines.md#use-englis
 ![NOTE](imgs/note.png) Doomen's original document clearly stated that *Use US-English*. In this document, the *US* part is deliberately omitted.
 
 
-## Document all public, protected and internal types and members ![](imgs/should.png) ##
-
-Documenting your code allows Visual Studio to pop-up the documentation when your class is used somewhere else. Furthermore, by properly documenting your classes, tools can generate professionally looking class documentation.
-
-
-## Write XML documentation with another developer in mind ![](imgs/should.png) ##
-
-Write the documentation of your type with another developer in mind. Assume he or she will not have access to the source code and try to explain how to get the most out of the functionality of your type.
-
-
-## Write MSDN-style documentation ![](imgs/may.png) ##
-
-Following the MSDN on-line help style and word choice helps the developer to find its way through your documentation more easily.
- 
-![NOTE](imgs/note.png) Either [GhostDoc](http://submain.com/products/ghostdoc.aspx) or [Sandcastle Help File Builder](https://shfb.codeplex.com) can generate a starting point for documenting code with a shortcut key.
-
-
 ## Avoid inline comments ![](imgs/should.png) ##
 
 If you feel the need to explain a block of code using a comment, consider replacing that block with a method having a clear name.

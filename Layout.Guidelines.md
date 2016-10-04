@@ -79,7 +79,7 @@ using Telerik.Ajax;
 
 Maintaining a common order allows other team members to find their way in your code more easily. In general, a source file should be readable from top to bottom, as if you are reading a book. This prevents readers from having to browse up and down through the code file.
 
-1.	Private fields and constants (in a region)
+1.	Private fields and constants
 2.	Public constants
 3.	Public read-only static fields
 4.	Factory Methods
@@ -89,11 +89,6 @@ Maintaining a common order allows other team members to find their way in your c
 8.	Other methods and private properties in calling order
 
 
-## Be reluctant with `#region`s ![](imgs/must.png) ##
+## Dont use `#region` ![](imgs/must.png) ##
 
-Regions can be helpful, but can also hide the main purpose of a class. Therefore, use #regions only for:
-
-* Private fields and constants (preferably in a `Private Definitions` region).
-* Nested classes
-* Interface implementations (only if the interface is not the main purpose of that class) 
-
+Regions usually hide ugly code and makes it easy to miss important details

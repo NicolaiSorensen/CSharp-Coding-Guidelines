@@ -21,7 +21,7 @@ bool hasOrders = !customer.HasNoOrders;
 Double negatives are more difficult to grasp than simple expressions, and people tend to read over the double negative easily.
 
 
-## Name assemblies after their contained namespace ![](imgs/may.png) ##
+## Name assemblies after their contained namespace ![](imgs/should.png) ##
 
 All DLLs should be named according to the pattern `<Company>.<Component>.dll` where `<Company>` refers to your company's name and `<Component>` contains one or more dot-separated clauses. For example `Dnb.Web.Controls.dll`.
 
@@ -30,7 +30,7 @@ As an example, consider a group of classes organized under the namespace `Dnb.We
 ![EXCEPTION](imgs/exception.png) If you decide to combine classes from multiple unrelated namespaces into one assembly, consider suffix to the assembly with `Core`, but do not use that suffix in the namespaces. For instance, `Dnb.Consulting.Core.dll`.
 
 
-## Name a source file to the type it contains ![](imgs/may.png) ##
+## Name a source file to the type it contains ![](imgs/should.png) ##
 
 Use Pascal casing for naming the file and don’t use underscores.
 

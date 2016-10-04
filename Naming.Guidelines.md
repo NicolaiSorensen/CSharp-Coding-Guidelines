@@ -22,9 +22,9 @@ Interface | Pascal | `IBusinessService`
 Enumeration type | Pascal | `ErrorLevel`
 Enumeration values | Pascal | `FatalError`
 Event | Pascal | `Click`
-Private field | Camel | `listItem`
-Protected field | Pascal | `MainPanel`
-Const field | Pascal | `MaximumItems`
+Private field | Camel | `_listItem`
+Protected field | Pascal | `_mainPanel`
+Const field | Uppercase | `MAXIMUM_ITEMS`
 Const variable | Camel | `maximumItems`
 Read-only static field | Pascal | `RedValue`
 Variable | Camel | `listOfValues`
@@ -42,8 +42,7 @@ In most cases they are a lazy excuse for not defining a clear and intention-reve
 
 ## Don't prefix fields ![](imgs/must.png) ##
 
-For example, don't use `g_` or `s_` to distinguish static versus non-static fields. In general, a method in which it is difficult to distinguish local variables from member fields is too big. Examples of incorrect identifier names are: `_currentUser`, `mUserName`, `m_loginTime`.
-
+For example, don't use `g_` or `s_` to distinguish static versus non-static fields. 
 
 ## Don't use abbreviations ![](imgs/should.png) ##
 
